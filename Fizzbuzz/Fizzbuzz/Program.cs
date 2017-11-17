@@ -10,6 +10,10 @@ namespace Fizzbuzz
     {
         static void Main(string[] args)
         {
+            Fizzbuzz doFizzbuzz = new Fizzbuzz();
+            doFizzbuzz.DoFizzBuzz();
+
+            Console.ReadKey();
         }
     }
 }
